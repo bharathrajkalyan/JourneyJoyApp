@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.home-container {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background-color: #a0dbc7;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.signup{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-size: medium ;
+  position: relative;
+  right:45px;
+
+}
+
+.nav-links li {
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  right: 50px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: #ff6700;
+}
+
+.hero-section {
+  height: 80vh;
+  position: relative;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6700;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #e55b00;
+}
+
+.featured-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.featured-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.featured-grid {
+  display: flex;
+  
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: calc(25% - 20px); /* Adjusted width to make the cards smaller */
+  max-width: 245px; /* Limit the maximum width */
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px; /* Adjusted padding to make the card more compact */
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 150px; /* Set a specific height for the image */
+  object-fit: cover; /* Ensure the image covers the card without distortion */
+  border-radius: 10px;
+  margin-bottom: 10px; /* Reduced margin to make the design tighter */
+}
+
+.card h3 {
+  margin: 10px 0 0;
+  font-size: 1.2em; /* Adjusted font size to fit the smaller card */
+}
+
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.info-section {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  background-color: #ebe5f8;
+}
+
+.info-card {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links li:hover {
+  color: #ff6700;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.cur{
+  padding: 0px;
+  font-family: cursive;
+  margin: 0px;
+  color: #d4dff7;
+}
+
+.title{
+  
+  font-family: barbra;
+}
+
+
+/* #34e0a1 //green
+#d4dff7
+#34e0a1 //green
+#b8a3d8
+#fcc //pink
+#e0e0e0 */

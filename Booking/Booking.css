@@ -1,0 +1,88 @@
+.booking-container {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+}
+
+.booking-header {
+  background-color: #dd4b39; /* Adjust as needed */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.booking-nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.booking-hero {
+  background-image: url('C:\Microservices\Frontend\ExploreEpic\exploreease\public\images\hungurymain.jpg'); /* Adjust as needed */
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.booking-hero h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.booking-hero p {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+
+.booking-form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color: #d81b60;
+}
+
+.calculate-button {
+  background-color: #dd4b39;
+  margin-top: 20px;
+}
+
+.calculate-button:hover {
+  background-color: #c74332;
+}

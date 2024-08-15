@@ -1,0 +1,12 @@
+.signlogin{
+    background-image: url("../src/components/pic1.jpg");
+    background-size:cover;
+     height: 100vh;
+    background-repeat: no-repeat;
+  background-attachment: fixed;  
+
+}
+.apph1{
+  padding-top: 10%;
+  margin-top: 0%;
+}
